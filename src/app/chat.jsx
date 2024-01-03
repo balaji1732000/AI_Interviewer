@@ -134,7 +134,7 @@ export default function Chat() {
   const [currentVolume, setCurrentVolume] = useState(-50);
   const [volumePercentage, setVolumePercentage] = useState(0);
   // const [token, setToken] = useLocalStorage("ai-token", "");
-  const token = "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";
+  const token = "*************************************";
   const [lang, setLang] = useLocalStorage("lang", "");
   const isBusy = useRef(false);
   const screenshotsRef = useRef([]);
